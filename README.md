@@ -29,6 +29,17 @@
 - R : Renamed (The file has been renamed)
 - S : Submodule (In repository exists another subrepository)
 
+## react 파일 구조와 component 실습
+
+## JSX
+
+- 정의 : 공식문서
+- Babel.js
+- 문법
+- 하나의 구역으로 구분
+- fragment short syntax
+- JSX 변수
+- className, id
 
 
 
