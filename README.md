@@ -15,6 +15,11 @@
 - create-react-app react-prj
 - vs code 재실행 => commit / push
 - github 확인
+- yarn start
+- App.js 수정/반영 테스트
+- github commit/push 테스트
+
+
 
 
 
