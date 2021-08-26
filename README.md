@@ -36,10 +36,18 @@
 - 정의 : 공식문서
 - Babel.js
 - 문법 - self-close
-- 하나의 구역으로 구분 / fragment short syntax
-  - https://ko.reactjs.org/docs/fragments.html
+- 하나의 구역으로 구분
+  - fragment ( https://ko.reactjs.org/docs/fragments.html )
 - JSX 변수
 - className, id
+- 주석 : {/**/}
+
+## props
+
+
+
+
+
 
 
 
