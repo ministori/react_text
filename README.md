@@ -45,7 +45,7 @@
 > 파일 실행 흐름
 > - App.js 부분부분 콤포넌트가 App.js에 최종적으로 모임
 > - index.js 파일 내부의 <App /> 부분에 렌더링
-> - index.html <code>&lt;div id="root"&gt;&lt;/div&gt;</code>에 최
+> - index.html <code>&lt;div id="root"&gt;&lt;/div&gt;</code>에 최종 반영됨
 
 Hello Wold Component => App.js 에 포함 시키는 연습
 
