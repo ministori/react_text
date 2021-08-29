@@ -86,7 +86,7 @@ Hello Wold Component => App.js 에 포함 시키는 연습
 
 - css 작성 방식
   - general / sass 소개
-  - CSS module<sup>**</sup>
+  - <sup style="color:red;">**</sup>CSS module
   - styled-component
 
 - 예제소스
