@@ -86,7 +86,7 @@ Hello Wold Component => App.js 에 포함 시키는 연습
 
 - css 작성 방식
   - general / sass 소개
-  - <strong>CSS module<strong>
+  - <strong>CSS module</strong>
   - styled-component
 
 - 예제소스
