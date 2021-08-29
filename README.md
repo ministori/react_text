@@ -95,5 +95,8 @@ Hello Wold Component => App.js 에 포함 시키는 연습
 
 ## React Router
 
+> Main Router
+> 
+> Sub Router
 
 
