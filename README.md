@@ -21,6 +21,7 @@
 
 ## VS Code Github Message
 
+```
 - A : Added (This is a new file that has been added to the repository)
 - M : Modified (An existing file has been changed)
 - D : Deleted (a file has been deleted)
@@ -28,8 +29,21 @@
 - C : Conflict (There is a conflict in the file)
 - R : Renamed (The file has been renamed)
 - S : Submodule (In repository exists another subrepository)
+```
 
 ## react 파일 구조와 component 실습
+
+> 파일/폴더 설명
+>  - node_module : node module folder
+>  - public : 실제 화면에 보이는 html 파일 또는 리소스들이 저장되는 폴더
+>   - index.html : 메인 페이지
+>  
+>  - src : html 파일에 렌더링되도록 하는 콤포넌트 파일이 저장된 폴더
+>   - index.js : index.html에 렌더링되는 파일
+>   - App.js : index.js에 렌더링되는 기본 콤포넌트
+>   
+> 파일 실행 흐름  
+> App.js => index.js => index.html 
 
 ## JSX
 
@@ -43,6 +57,19 @@
 - 주석 : {/**/}
 
 ## props
+
+- 컴포넌트에 값을 전달할 때 사용하는 것
+- 예제 소스
+- 객체 비구조화 할당 => 객체 구조 분해
+- 예제 소스
+- 배열 비구조화 할당
+- 예제 소스
+- props.children
+
+
+## 조건부 렌더링
+- 조건에 따른 다른 렌더링
+- 예제 소스
 
 
 
