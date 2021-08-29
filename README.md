@@ -42,8 +42,13 @@
 >   - index.js : index.html에 렌더링되는 파일
 >   - App.js : index.js에 렌더링되는 기본 콤포넌트
 >   
-> 파일 실행 흐름  
-> App.js => index.js => index.html 
+> 파일 실행 흐름
+> - App.js 부분부분 콤포넌트가 App.js에 최종적으로 모임
+> - index.js 파일 내부의 <App /> 부분에 렌더링
+> - index.html <div id="root"></div>에 최
+
+Hello Wold Component => App.js 에 포함 시키는 연습
+
 
 ## JSX
 
