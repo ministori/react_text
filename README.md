@@ -58,7 +58,7 @@ Hello Wold Component => App.js 에 포함 시키는 연습
 - 문법 - self-close
 - 하나의 구역으로 구분
   - fragment ( https://ko.reactjs.org/docs/fragments.html )
-- JSX 변수
+- JSX : 자바 스크립트 변수 값 사용하기 
 - className, id
 - 주석 : {/**/}
 
