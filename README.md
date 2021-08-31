@@ -31,6 +31,10 @@
 - App.js 수정/반영 테스트
 - github commit / push 테스트
 
+- npx error / permission
+- sudo chown -R 900:900 "/Users/moonbro/.npm"
+- sudo chown -R $USER:$GROUP ~/.npm
+
 ## VS Code Github Message
 
 ```
