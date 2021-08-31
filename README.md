@@ -1,4 +1,4 @@
-# react_text clone test test
+# react_text
 
 ## react focus
 
@@ -6,6 +6,7 @@
 - SPA : routing
 
 ## react 로컬 환경 구성
+
 
 - node.js 섪치
 - yarn 설치 : npm
@@ -17,6 +18,8 @@
   - git config --global user.email ""
 - git permission 확인
   - personal access token : https://hyeo-noo.tistory.com/184
+- mac : keychain 인증 확인
+
 - vs code 설치
 - vs code에서 github clone
 - commit / push test
@@ -91,8 +94,6 @@ Hello Wold Component => App.js 에 포함 시키는 연습
 
 - 예제 소스
 
-### Prettier & ESLint
-
 ### component & css module
 
 - css 작성 방식
@@ -103,13 +104,6 @@ Hello Wold Component => App.js 에 포함 시키는 연습
 - 예제소스
 
 ### add function
-- HOOK
-- useState
-- input 상태관리
-- useRef
-- useEffect
-- useMemo
-- useCallback
 
 ## React Router
 
