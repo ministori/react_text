@@ -110,6 +110,9 @@ Hello Wold Component => App.js 에 포함 시키는 연습
 
 ### add function
 
+- Event
+- Input Value
+
 - Hook(공식문서)
   - Hook 소개
   - Hook 개요
