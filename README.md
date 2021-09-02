@@ -120,7 +120,9 @@ Hello Wold Component => App.js 에 포함 시키는 연습
     - useState : 초기값 지정, setter 함수
     - useRef : DOM 찾기, focus 이동
     - map 함수
+    - =====> todo
     - 배열 렌더링(App => 배열 component)
+    - =====> todo
     - 배열 추가/제거/수정
   - Custom Hook
 
