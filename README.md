@@ -121,7 +121,7 @@ Hello Wold Component => App.js 에 포함 시키는 연습
     - useRef : DOM 찾기, focus 이동
     - map 함수
     - 배열 렌더링(App => 배열 component)
-    - 배열 추가/제거/수정
+    - 배열 추가/제거
   - Custom Hook
 
 ## React Router
