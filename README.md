@@ -122,6 +122,7 @@ Hello Wold Component => App.js 에 포함 시키는 연습
     - map 함수
     - 배열 렌더링(App => 배열 component)
     - 배열 추가/제거
+    - 현재 배열 개수 구하기 => 남은 할일 구하기
   - Custom Hook
 
 ## React Router
