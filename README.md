@@ -1,16 +1,22 @@
 # react_text
 
-## react focus
+## 로컬 개발 환경 구성
 
-- virtual DOM
-- SPA : routing
+### CMD/Terminal
 
-## react 로컬 환경 구성
+- CMD/Terminal 명령어
 
-
-- node.js 섪치
+- node.js 설치
 - yarn 설치 : npm
 - node.js / npm / yarn 버전 확인
+
+### VS Code
+
+- vs code 설치
+- vs code terminal에서 nodejs / npm / yarn 버전 확인
+
+### git 환경 구성
+
 - git 설치
 - git config setting
   - git config --list
@@ -20,15 +26,20 @@
   - personal access token : https://hyeo-noo.tistory.com/184
 - mac : keychain 인증 확인
 
-- vs code 설치
 - vs code에서 github clone
 - commit / push test
 - github 확인
+
+### react project install / 시작
+
 - create-react-app react-prj
+
 - vs code 재실행 => commit / push
 - github 확인
+
 - yarn start
 - App.js 수정/반영 테스트
+
 - github commit / push 테스트
 
 - npx error / permission
@@ -46,6 +57,13 @@
 - R : Renamed (The file has been renamed)
 - S : Submodule (In repository exists another subrepository)
 ```
+
+
+
+## react focus
+
+- virtual DOM
+- SPA : routing
 
 ## react 파일 구조와 component 실습
 
