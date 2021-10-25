@@ -17,25 +17,25 @@
 
 ### git 환경 구성
 
-- git 설치
-- git config setting
-  - git config --list
-  - git config --global user.name ""
-  - git config --global user.email ""
-- git permission 확인
-  - personal access token : https://hyeo-noo.tistory.com/184
-- mac : keychain 인증 확인
+> git 설치
+> git config setting
+>  - git config --list
+>  - git config --global user.name ""
+>  - git config --global user.email ""
+> git permission 확인
+>  - personal access token : https://hyeo-noo.tistory.com/184
+> - mac : keychain 인증 확인
 
-- vs code에서 github clone
-- commit / push test
-- github 확인
+> - vs code에서 github clone
+> - commit / push test
+> - github 확인
 
 ### react project install / 시작
 
 - create-react-app react-prj
 
-- vs code 재실행 => commit / push
-- github 확인
+> vs code 재실행 => commit / push
+> github 확인
 
 - yarn start
 - App.js 수정/반영 테스트
