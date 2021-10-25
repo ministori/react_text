@@ -41,6 +41,13 @@
 - yarn start
 - App.js 수정/반영 테스트
 
+### localhost URL
+
+- 로컬 서버에서 실행을 할떄 사용할 수 있는 키워드 URL
+- localhost => IP 주소 : 127.0.0.1
+- port - URL:port번호
+  - 하나의 물리 서버에서 여러개의 서버 SW를 실행할 수 있음
+
 > github commit / push 테스트
 
 ```
@@ -61,7 +68,8 @@ sudo chown -R $USER:$GROUP ~/.npm
 - S : Submodule (In repository exists another subrepository)
 ```
 
-
+## react 공식문서
+https://ko.reactjs.org/
 
 ## react focus
 
@@ -71,7 +79,7 @@ sudo chown -R $USER:$GROUP ~/.npm
 ## react 파일 구조와 component 실습
 
 > 파일/폴더 설명
->  - node_module : node module folder
+>  - node_module : nodejs module folder
 >  - public : 실제 화면에 보이는 html 파일 또는 리소스들이 저장되는 폴더
 >   - index.html : 메인 페이지
 >  
@@ -80,9 +88,11 @@ sudo chown -R $USER:$GROUP ~/.npm
 >   - App.js : index.js에 렌더링되는 기본 콤포넌트
 >   
 > 파일 실행 흐름
-> - App.js 부분부분 콤포넌트가 App.js에 최종적으로 모임
-> - index.js 파일 내부의 <App /> 부분에 렌더링
-> - index.html <code>&lt;div id="root"&gt;&lt;/div&gt;</code>에 최종 반영됨
+```
+> App.js 부분부분 콤포넌트가 App.js에 최종적으로 모임
+> index.js 파일 내부의 <App /> 부분에 렌더링
+> index.html <code><div id="root"&gt;&lt;/div&gt;</code>에 최종 반영됨
+```
 
 Hello Wold Component => App.js 에 포함 시키는 연습
 
