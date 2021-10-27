@@ -171,19 +171,28 @@ https://ko.reactjs.org/
 
 ## 조건부 렌더링
 - 조건에 따른 다른 렌더링
-- 예제 소스
+- condition1.js
+- condition2.js
+- condition3.js
 
 ## Todo Markup & Styling Coding
 https://dev.to/hariramjp777/todo-app-using-html-css-and-js-local-storage-design-html-and-css-1m0j
 
+- public
+  - todo.html
+  - todo.css
+  - add_button.svg
+
 ### Todo Component Structure
 
-- header
-- main
-  - todo-list
-    - todo-item
-  - status
-- footer
+> component로 분해
+
+- header : TodoHeader
+- main : TodoMain
+  - todo-list : TodoList
+    - todo-item(동적생성) : TodoItem
+  - status : TodoStatus
+- footer : TodoFooter
 
 ### React에서 css를 작성/사용하는 방식
 
@@ -207,29 +216,39 @@ on이벤트 = {함수이름}
 Ex) onClick={myFunction}
 ```
 
-- JSX에 반영되는 값이 업데이트되어 다시 렌더링되어야 할 때 Hook을 사용함
-
-### add function
-
-- Event
-- Input Value
-
 ### React Hook
 (공식문서 : 참고)
+
+- Input Value
+  - JSX에 반영되는 값이 업데이트되어 다시 렌더링(리렌더링)되어야 할 때 Hook을 사용함
+
 - Hook 소개
-  - Hook은 함수 컴포넌트에서 리액트의 상태와 생명주기 기능을 연동할 수 있도로 해수는 함수
-- Hook 개요
+  - Hook은 상태 값과 여러 React의 기능을 사용할수 있음
+  - 상태 변경후 리렌더링
+
 - Hook API
-  - useState : 초기값 지정, setter 함수
-    - 초기값으로 지정한 값을 사용해서 상태를 표현하는 값과 그 값을 설정(지정)하는 함수를 반환함
+  
+  - useState : 초기값으로 지정한 값을 사용해서 상태를 표현하는 값과 그 값을 설정(지정)하는 함수를 반환함
+  ```
+  const [state, setState] = useState(initState);
+  
+  state : 값이 저장되는 변수
+  setState : 값을 지정하는 함수
+  initState : 초기값
+  ```
+  
   - useRef : DOM 찾기, focus 이동
     - useRef로 할당된 객체와 해당 객체가 할당된 Element와 연결되어 Rendering된 DOM에 직접 Access할 수 있도록 하는 함수
+  
   - map 함수
     - 특정 데이터를 다른 형태나 성질의 데이터로 변형하여 매핑해주는 함수
+  
   - 배열 렌더링(App => 배열 component)
+  
   - 배열 추가/제거
+  
   - 현재 배열 개수 구하기 => 남은 할일 구하기
-- Custom Hook
+
 
 ### Hook을 사용해서 배열에 데이터를 추가/삭제
 
