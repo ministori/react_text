@@ -246,23 +246,19 @@ Ex) onClick={myFunction}
   setState : 값을 지정하는 함수
   initState : 초기값
   ```
-  - HookUseStateNumber.js
-  - HookUseStateText.js
-  - HookUseStateInput.js
-  - HookUseStateInputMulti.js
+    - HookUseStateNumber.js
+    - HookUseStateText.js
+    - HookUseStateInput.js
+    - HookUseStateInputMulti.js
   
-  - useRef : DOM 찾기, focus 이동
-    - useRef로 할당된 객체와 해당 객체가 할당된 Element와 연결되어 Rendering된 DOM에 직접 Access할 수 있도록 하는 함수
-  
-  - map 함수
-    - 특정 데이터를 다른 형태나 성질의 데이터로 변형하여 매핑해주는 함수
-  
-  - 배열 렌더링(App => 배열 component)
-  
-  - 배열 추가/제거
-  
-  - 현재 배열 개수 구하기 => 남은 할일 구하기
+  - useRef
+    - DOM 찾기, focus 이동
+      - useRef로 할당된 객체와 해당 객체가 할당된 Element와 연결되어 Rendering된 DOM에 직접 Access할 수 있도록 하는 함수
+      - HookUseStateInputMulti.js에 추가
 
+    - 컴포넌트 안의 변수 사용
+      - current 프로퍼티에 저장된 값 사용
+      - 값이 변경되도 리렌더링되지 않음 => 리렌더링과 상관없는 전역 상태 값 관리
 
 ### Hook을 사용해서 배열에 데이터를 추가/삭제
 
@@ -277,6 +273,28 @@ Ex) onClick={myFunction}
   - 기본데이터 개수 이후로 데이터가 추가될 수 있도록 useRef()로 상태 관리가 필요함
 
 - 컴포넌트 밖의 함수와 값을 사용하기 위해 컴포넌트 속으로 전달해서 사용하기도 함
+
+- 배열 렌더링(정적 배열)
+  - Array01.js
+  - Array02.js
+
+- map 함수(동적 배열)
+  - 특정 데이터를 다른 형태나 성질의 데이터로 변형하여 매핑해주는 함수
+  - map 함수를 사용하여 동적 배열 생성시, 각 객체 데이터의 원소중 고유하게 사용할 수 있는 값을 사용해서 key 값을 지정해야 함
+  - Array03.js
+
+- 배열 분리 / useRef
+  - 추후 여러가지 기능의 컴포넌트에 배열 데이터를 전달해서 사용하기 위해서 배열 데이터와 컴포넌트를 분리
+  - Array04.js : 전체 포함되도록 작성
+  - Array04List.js : Array04.js에서 리스트 부분만 추출해서 컴포넌트로 작성
+
+- 배열 추가 / 제거 기능 구현
+  - Array05.js : List / create / remove 포함되도록 작성
+  - Array05.js 에서 list분리
+  - Array05.js 에서 create 부분 컴포넌트로 분리
+  - remove 분리
+
+- 현재 배열 개수 구하기 => 남은 할일 구하기
 
 ## React Router
 
