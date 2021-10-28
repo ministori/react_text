@@ -175,26 +175,7 @@ https://ko.reactjs.org/
 - condition2.js
 - condition3.js
 
-## Todo Markup & Styling Coding
-https://dev.to/hariramjp777/todo-app-using-html-css-and-js-local-storage-design-html-and-css-1m0j
-
-- public
-  - todo.html
-  - todo.css
-  - add_button.svg
-
-### Todo Component Structure
-
-> component로 분해
-
-- header : TodoHeader
-- main : TodoMain
-  - todo-list : TodoList
-    - todo-item(동적생성) : TodoItem
-  - status : TodoStatus
-- footer : TodoFooter
-
-### React에서 css를 작성/사용하는 방식
+## React에서 css를 작성/사용하는 방식
 
 - App.css에 전체 css를 구성하고 전역으로 사용하는 방식
 - module css 방식 : css를 하나로 구성하지 않고 component별로 구성
@@ -206,6 +187,33 @@ https://dev.to/hariramjp777/todo-app-using-html-css-and-js-local-storage-design-
   - 인라인 방식처럼 사용 => component 파일에 css, component contents 같이 작성
   - Internal 방식으로 렌더링됨
 
+- Layout.js / layout.module.css
+
+## Todo Markup & Styling Coding
+https://dev.to/hariramjp777/todo-app-using-html-css-and-js-local-storage-design-html-and-css-1m0j
+
+- public
+  - todo.html
+  - todo.css
+  - add_button.svg
+  - bg_header.jpg
+
+## Todo Component Structure
+
+> component로 분해
+
+- header : TodoHeader.js / header.module.css
+
+- main : TodoMain.js / main.module.css
+
+  - todo-list : TodoList.js / todolist.module.css
+
+    - todo-item(동적생성) : TodoItem.js / todoitem.module.css
+
+  - status : TodoStatus.js / status.module.css
+
+- footer : TodoFooter.js / footer.module.css
+
 ## React JSX에 기능 추가
 
 - event와 함수를 연결
@@ -215,12 +223,14 @@ on이벤트 = {함수이름}
 
 Ex) onClick={myFunction}
 ```
+- JsEvent.js
+  - Hook을 사용하지 않은 이벤트 구현 Component
+  - console 출력은 되지만 화면에 리렌더링되지 않음
 
-### React Hook
+## React Hook
 (공식문서 : 참고)
 
-- Input Value
-  - JSX에 반영되는 값이 업데이트되어 다시 렌더링(리렌더링)되어야 할 때 Hook을 사용함
+- JSX에 반영되는 값이 업데이트되어(상태가 변경되어) 다시 렌더링(리렌더링)되어야 할 때 Hook을 사용함
 
 - Hook 소개
   - Hook은 상태 값과 여러 React의 기능을 사용할수 있음
@@ -236,6 +246,10 @@ Ex) onClick={myFunction}
   setState : 값을 지정하는 함수
   initState : 초기값
   ```
+  - HookUseStateNumber.js
+  - HookUseStateText.js
+  - HookUseStateInput.js
+  - HookUseStateInputMulti.js
   
   - useRef : DOM 찾기, focus 이동
     - useRef로 할당된 객체와 해당 객체가 할당된 Element와 연결되어 Rendering된 DOM에 직접 Access할 수 있도록 하는 함수
